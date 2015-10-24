@@ -1,0 +1,22 @@
+div[type='button']::before{
+    content:'III';
+}
+
+
+
+div[type='button']{
+   background-color:yellow;
+   width:1em;
+}
+
+div[type='button']:active{
+    background-color:blue;
+}
+
+nav{
+    display:none;
+}
+
+div[type='button']:focus + nav{
+    display:block;
+}
